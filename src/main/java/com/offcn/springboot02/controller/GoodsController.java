@@ -55,6 +55,15 @@ public class GoodsController {
 
     @GetMapping("/demo2")
     public String demo2 () {
+
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+
         return redisPort + stu1 + "," + companyProperties + "," + courseProperties;
     }
 
